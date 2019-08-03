@@ -1,0 +1,27 @@
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+html,body {
+    overflow-x: hidden;
+    width: 100%;
+    height:100%;
+}
+body{
+    font-size: 14px;
+}
+/* 加载等待 */
+.fade-enter,
+.fade-leave-active {
+    opacity: 0;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.5s;
+}
+
+
